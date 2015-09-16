@@ -22,4 +22,4 @@ This will create a thin and shaded JAR. You'll need the shaded JAR for deploymen
 
 Run spark-submit as follows...
 
-``./bin/spark-submit --class org.idml.sparkexample.IDMLExample --master local[<number of cores, e.g. 2>] <path to built shaded JAR> <path to IDML mapping file> <Path to line-delimited JSON input file>``
+``./bin/spark-submit --class --class org.idml.sparkexample.IDMLExample --master local[<number of cores, e.g. 2>] <path to built shaded JAR> <path to IDML mapping file> <Path to line-delimited JSON input file>``
